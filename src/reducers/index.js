@@ -1,7 +1,8 @@
 import { combineReducers } from 'redux';
+import RecruitmentReducer from './reducer-past-recruitments';
 
 const rootReducer = combineReducers({
-  state: (state = {}) => state
+  recruitments: RecruitmentReducer
 });
 
 export default rootReducer;
