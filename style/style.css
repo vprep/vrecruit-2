@@ -1,0 +1,38 @@
+.round-div {
+    background-color: green;
+    color: white;
+    border-radius: 7px;
+    height: 50px;
+}
+
+
+.round-button {
+    background-color: green;
+    border-radius: 8px;
+    color: white;
+}
+
+.circle-span {
+    background-color: black;
+    border-radius: 30px;
+    text-align: center;
+    height: 26px;
+    line-height: 26px;
+     padding-left: 2%;
+     width: 26px!important;
+     margin-top: 2%;
+     margin-left: 1%;
+
+    }
+
+ .center-content {
+     padding-top: 50%!important;
+     padding-left: 50%!important;
+ }
+
+ .height-home{
+    height: 50px;
+ }
+
+
+
