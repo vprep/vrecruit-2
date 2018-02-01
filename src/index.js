@@ -5,15 +5,15 @@ import { createStore, applyMiddleware } from 'redux';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import reducers from './reducers';
-import Navigation from "./components/navigation";
-import Home from "./components/home";
-import ManagePositions from './components/manage-positions';
-import ManageTests from './components/manage-tests';
-import Recruitments from './components/recruitments';
-import Analytics from './components/analytics';
-import Notifications from './components/notifications';
-import Messages from './components/messages';
-import Settings from './components/settings';
+import Navigation from "./components/common/navigation";
+import Home from "./components/home/home";
+import ManagePositions from './components/manage-positions/manage-positions';
+import ManageTests from './components/manage-tests/manage-tests';
+import Recruitments from './components/recruitments/recruitments';
+import Analytics from './components/analytics/analytics';
+import Notifications from './components/notifications/notifications';
+import Messages from './components/messages/messages';
+import Settings from './components/settings/settings';
 
 
 const createStoreWithMiddleware = applyMiddleware()(createStore);
