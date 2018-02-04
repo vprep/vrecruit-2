@@ -20,6 +20,8 @@ module.exports = {
     extensions: ['', '.js', '.jsx']
   },
   devServer: {
+    host:'localhost',
+      port:3001,
       historyApiFallback: {
           disableDotRule: true
       },
