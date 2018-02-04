@@ -20,7 +20,9 @@ module.exports = {
     extensions: ['', '.js', '.jsx']
   },
   devServer: {
-    historyApiFallback: true,
+      historyApiFallback: {
+          disableDotRule: true
+      },
     contentBase: './'
   }
 };
