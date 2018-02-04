@@ -20,7 +20,7 @@ module.exports = {
     extensions: ['', '.js', '.jsx']
   },
   devServer: {
-    host: "ip-172-31-21-31",
+    host: "ec2-user@ec2-54-241-134-13.us-west-1.compute.amazonaws.com",
     port: 8080,
     historyApiFallback: true,
     contentBase: './'
